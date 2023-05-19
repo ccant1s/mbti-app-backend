@@ -2,17 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
-        <module name="service-registry" />
         <module name="mbti-service" />
+        <module name="mbti-common" />
+        <module name="service-registry" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-server" target="17" />
+      <module name="mbti-common" target="17" />
       <module name="mbti-service" target="17" />
       <module name="service-registry" target="17" />
     </bytecodeTargetLevel>
@@ -20,6 +23,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-server" options="-parameters" />
+      <module name="mbti-common" options="-parameters" />
       <module name="mbti-service" options="-parameters" />
       <module name="service-registry" options="-parameters" />
     </option>
