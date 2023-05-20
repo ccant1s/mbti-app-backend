@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mbti-app-backend.iml" filepath="$PROJECT_DIR$/.idea/mbti-app-backend.iml" />
       <module fileurl="file://$PROJECT_DIR$/mbti-common/mbti-common.iml" filepath="$PROJECT_DIR$/mbti-common/mbti-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mbti-office/mbti-office.iml" filepath="$PROJECT_DIR$/mbti-office/mbti-office.iml" />
       <module fileurl="file://$PROJECT_DIR$/mbti-service/mbti-service.iml" filepath="$PROJECT_DIR$/mbti-service/mbti-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mbti-service-user/mbti-service-user.iml" filepath="$PROJECT_DIR$/mbti-service-user/mbti-service-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-registry/service-registry.iml" filepath="$PROJECT_DIR$/service-registry/service-registry.iml" />
     </modules>
   </component>

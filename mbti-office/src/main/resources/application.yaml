@@ -1,0 +1,30 @@
+server:
+  port: 8764
+
+spring:
+  application:
+    name: mbti-office
+  cloud:
+    config:
+        enabled: false
+
+    gateway:
+      routes:
+        - id: mbti-service
+          uri: lb://mbti-service
+          predicates:
+            - Path=/department/**
+        - id: mbti-service-user
+          uri: lb://mbti-service-user
+          predicates:
+            - Path=/employee/**
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0

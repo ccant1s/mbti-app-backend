@@ -15,7 +15,7 @@ private String name;
 
 private String position;
 
-private List<TestDeptModel> emp  = new ArrayList<>();
+private List<TestEmpModel> emp  = new ArrayList<>();
 
 
 

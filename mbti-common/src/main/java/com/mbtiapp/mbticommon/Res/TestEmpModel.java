@@ -7,16 +7,11 @@ public class TestEmpModel {
 
     private long id;
 
-    private long depatmentId;
+    private long departmentId;
 
     private String name;
 
     private String position;
 
-    public TestEmpModel(long id, long depatmentId, String name, String position) {
-        this.id = id;
-        this.depatmentId = depatmentId;
-        this.name = name;
-        this.position = position;
-    }
+
 }

@@ -12,4 +12,5 @@ public interface DepartmentService {
      TestDeptModel findById(TestDeptModel id);
 
      List<TestDeptModel> findAll();
+     List<TestDeptModel> findWithEmp(long Id);
 }

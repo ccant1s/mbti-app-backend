@@ -8,15 +8,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
+        <module name="mbti-service-user" />
         <module name="mbti-service" />
         <module name="mbti-common" />
+        <module name="mbti-office" />
         <module name="service-registry" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-server" target="17" />
       <module name="mbti-common" target="17" />
+      <module name="mbti-office" target="17" />
       <module name="mbti-service" target="17" />
+      <module name="mbti-service-user" target="17" />
       <module name="service-registry" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -24,7 +28,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-server" options="-parameters" />
       <module name="mbti-common" options="-parameters" />
+      <module name="mbti-office" options="-parameters" />
       <module name="mbti-service" options="-parameters" />
+      <module name="mbti-service-user" options="-parameters" />
       <module name="service-registry" options="-parameters" />
     </option>
   </component>
