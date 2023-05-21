@@ -18,6 +18,11 @@ spring:
           uri: lb://mbti-service-user
           predicates:
             - Path=/employee/**
+    datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/mbti-app-db?useSSL=false&serverTimezone=UTC
+      sername: root
+      password:
 
 eureka:
   client:

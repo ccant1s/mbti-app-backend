@@ -8,10 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
-        <module name="mbti-service-user" />
         <module name="mbti-service" />
-        <module name="mbti-common" />
         <module name="mbti-office" />
+        <module name="mbti-service-user" />
+        <module name="OAuth2-Server" />
+        <module name="mbti-common" />
         <module name="service-registry" />
       </profile>
     </annotationProcessing>
@@ -21,11 +22,13 @@
       <module name="mbti-office" target="17" />
       <module name="mbti-service" target="17" />
       <module name="mbti-service-user" target="17" />
+      <module name="OAuth2-Server" target="17" />
       <module name="service-registry" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="OAuth2-Server" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="mbti-common" options="-parameters" />
       <module name="mbti-office" options="-parameters" />

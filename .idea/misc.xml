@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/mbti-common/pom.xml" />
         <option value="$PROJECT_DIR$/mbti-service-user/pom.xml" />
         <option value="$PROJECT_DIR$/mbti-office/pom.xml" />
+        <option value="$PROJECT_DIR$/OAuth2-Server/pom.xml" />
       </list>
     </option>
   </component>
