@@ -22,7 +22,10 @@ management:
     sampling:
       probability: 1.0
 
-
+twilio:
+  accountSid: "AC3e5d10c0354c6b3299b8ac74f2896799"
+  authToken: "4360baa1218c0820ebae0b75adb0e89f"
+  phoneNumber: "+13613209144"
 
 
 

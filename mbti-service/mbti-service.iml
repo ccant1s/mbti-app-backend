@@ -39,7 +39,6 @@
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.33" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:3.0.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator:3.0.6" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.2" level="project" />
     <orderEntry type="library" name="Maven: io.micrometer:micrometer-observation:1.10.6" level="project" />
     <orderEntry type="library" name="Maven: io.micrometer:micrometer-commons:1.10.6" level="project" />
     <orderEntry type="library" name="Maven: io.micrometer:micrometer-core:1.10.6" level="project" />
@@ -72,7 +71,6 @@
     <orderEntry type="library" name="Maven: org.apache.httpcomponents.client5:httpclient5:5.1.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents.core5:httpcore5:5.1.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents.core5:httpcore5-h2:5.1.5" level="project" />
-    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.15" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.eureka:eureka-client:2.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.netflix-commons:netflix-eventbus:0.3.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.netflix-commons:netflix-infix:0.3.0" level="project" />
@@ -90,12 +88,8 @@
     <orderEntry type="library" name="Maven: jakarta.inject:jakarta.inject-api:2.0.1" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.servo:servo-core:0.12.21" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:19.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.14" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.16" level="project" />
     <orderEntry type="library" name="Maven: commons-configuration:commons-configuration:1.10" level="project" />
     <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.14.2" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.14.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.jettison:jettison:1.4.0" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.eureka:eureka-core:2.0.0" level="project" />
     <orderEntry type="library" name="Maven: jakarta.servlet:jakarta.servlet-api:6.0.0" level="project" />
@@ -201,5 +195,19 @@
     <orderEntry type="library" name="Maven: io.projectreactor:reactor-core:3.5.5" level="project" />
     <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.mysql:mysql-connector-j:8.0.33" level="project" />
+    <orderEntry type="library" name="Maven: com.twilio.sdk:twilio:8.18.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.15" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.7" level="project" />
+    <orderEntry type="library" name="Maven: io.jsonwebtoken:jjwt-api:0.11.2" level="project" />
+    <orderEntry type="library" name="Maven: io.jsonwebtoken:jjwt-jackson:0.11.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.jsonwebtoken:jjwt-impl:0.11.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.14" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.16" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.14.2" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.14.2" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.2" level="project" />
+    <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.activation:javax.activation-api:1.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.26" level="project" />
   </component>
 </module>
